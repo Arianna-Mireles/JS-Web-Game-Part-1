@@ -2,8 +2,8 @@ function newImage() {
     let object = document.createElement('img')
     object.src = 'assets/green-character.gif'
     object.style.position = 'fixed'
-    object.style.left = '100px'
-    object.style.bottom = '100px'
+    object.style.left = left + 'px'
+    object.style.bottom = bottom + 'px'
     document.body.append(object)
 }
 
